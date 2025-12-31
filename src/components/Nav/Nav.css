@@ -1,0 +1,24 @@
+nav {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      padding: 0 20px;
+      color: #4b4b4b;
+    }
+  }
+}
