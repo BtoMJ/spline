@@ -15,7 +15,10 @@ function Sphere() {
         <button className="btn-1">+ Detalles</button>
       </section>
       <section className="two">
-        <Spline scene="https://prod.spline.design/rdIIHHWOFF8MpFVp/scene.splinecode" />
+        <Spline
+          className="animation-model"
+          scene="https://prod.spline.design/rdIIHHWOFF8MpFVp/scene.splinecode"
+        />
       </section>
     </main>
   );
